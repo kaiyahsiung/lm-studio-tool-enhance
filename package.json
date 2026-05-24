@@ -2,7 +2,7 @@
     "name":  "lm-studio-tool-enhance",
     "displayName":  "LM Studio-Tool Enhance",
     "description":  "Enhanced local LM Studio Copilot provider with safer defaults and LM Studio MCP-aware tool prioritization.",
-    "version":  "0.1.17-enhance.4",
+    "version":  "0.1.17-enhance.5",
     "publisher":  "evolution-local",
     "license":  "MIT",
     "repository":  {
