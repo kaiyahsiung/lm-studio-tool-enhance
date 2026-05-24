@@ -1,8 +1,8 @@
 {
     "name":  "lm-studio-tool-enhance",
     "displayName":  "LM Studio-Tool Enhance",
-    "description":  "Enhanced local LM Studio Copilot provider with safer tool defaults and local-first workflow.",
-    "version":  "0.1.17-enhance.2",
+    "description":  "Enhanced local LM Studio Copilot provider with safer defaults and LM Studio MCP-aware tool prioritization.",
+    "version":  "0.1.17-enhance.3",
     "publisher":  "evolution-local",
     "license":  "MIT",
     "repository":  {
@@ -135,7 +135,7 @@
                                                                                                           },
                                                                      "lmstudio-copilot.maxTools":  {
                                                                                                        "type":  "number",
-                                                                                                       "default":  8,
+                                                                                                       "default":  0,
                                                                                                        "order":  6,
                                                                                                        "description":  "Maximum number of tools to send to the model per request. Local models struggle with many tools (86+ is common with MCP servers). Tools used in the current conversation are always included; the rest are prioritized by name simplicity. Set to 0 for no limit."
                                                                                                    },
